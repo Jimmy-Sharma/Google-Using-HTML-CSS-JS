@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background-color: #1a202c;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#inputDiv input {
+    width: 70%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#BTNDiv button {
+    padding: 10px 15px;
+    width: 20%;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #2d3748;
+}
+
+#BTNDiv button:hover {
+    color: white;
+    background-color: #2d3748;
+}
+
+@media (max-width: 400px) {
+    #container {
+        width: 100%;
+    }
+
+    #mainContainer {
+        width: 100%;
+    }
+
+    #imageDiv {
+        width: 100%;
+    }
+
+    #imageDiv img {
+        width: 100%;
+    }
+    #inputDiv input {
+        width: 70%;
+        padding: 13px 17px;
+        font-size: 18px;
+        border-radius: 30px;
+        outline: none;
+        margin-bottom: 18px;
+    }
+
+    #BTNDiv button {
+        padding: 8px 12px;
+        width: 30%;
+        font-size: 14px;
+        border-radius: 30px;
+        cursor: pointer;
+        color: #2d3748;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+    #container {
+        width: 100%;
+    }
+
+    #mainContainer {
+        width: 100%;
+    }
+
+    #imageDiv {
+        width: 100%;
+    }
+
+    #imageDiv img {
+        width: 100%;
+    }
+}
